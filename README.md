@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+echo "# Clock Application" > README.md
+git add README.md
+git commit -m "Add README"
+git push
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
