@@ -1,7 +1,7 @@
 echo "# Clock Application" > README.md
-git add README.md
-git commit -m "Add README"
-git push
+ git add README.md
+ git commit -m "Add README"
+ git push
 
 
 ## Available Scripts
