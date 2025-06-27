@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Timer_Stopwatch/static/css/main.68adaedb.css",
+    "main.js": "/Timer_Stopwatch/static/js/main.c20e8381.js",
+    "index.html": "/Timer_Stopwatch/index.html",
+    "main.68adaedb.css.map": "/Timer_Stopwatch/static/css/main.68adaedb.css.map",
+    "main.c20e8381.js.map": "/Timer_Stopwatch/static/js/main.c20e8381.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68adaedb.css",
+    "static/js/main.c20e8381.js"
+  ]
+}
