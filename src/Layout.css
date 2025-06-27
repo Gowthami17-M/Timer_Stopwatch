@@ -1,3 +1,4 @@
+/*
 .navcontainer{
     display: flex;
     flex-direction: column;
@@ -111,5 +112,77 @@ body::-webkit-scrollbar{
         font-size: 16px;
     }
 }
+*/
+/* layout.css */
+/*
+.header-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 10px;
+}
+.header-icons img {
+  width: 30px;
+  cursor: pointer;
+}
 
+.clock-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+}
+
+.right-side {
+  text-align: center;
+}
+*/
+/* Add this to Layout.css */
+.navcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.itemcontent {
+  flex: 1; /* take all remaining space between header and footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+footer {
+  height: 50px; /* adjust based on your design */
+  flex-shrink: 0;
+  text-align: center;
+  background-color: #111; /* optional */
+  color: white;
+}
+
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding: 20px 0;
+  background-color: transparent;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.nav-icon:hover {
+  color: #00d2ff;
+}
+
+.nav-icon.active {
+  color: #00d2ff;
+}
 

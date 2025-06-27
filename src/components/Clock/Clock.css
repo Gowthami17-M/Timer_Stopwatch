@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background-color: #0d0c1d;
+}
+
+.clock-layout {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  height: 100vh;
+  background-color: #0d0c1d;
+}
+
+/* Analog Clock */
+.analog-clock {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #111, #0e0e1a);
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(100, 100, 255, 0.3);
+  border: 3px solid #222;
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom;
+  transform: rotate(0deg);
+  border-radius: 6px;
+}
+
+.hour {
+  height: 70px;
+  width: 6px;
+  background-color: #4169e1;
+  z-index: 3;
+}
+
+.minute {
+  height: 90px;
+  width: 4px;
+  background-color: orange;
+  z-index: 2;
+}
+
+.second {
+  height: 100px;
+  width: 2px;
+  background-color: red;
+  z-index: 1;
+}
+
+.center-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #ff7;
+  border: 2px solid orange;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+.tick {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 12px;
+  width: 2px;
+  background-color: #6fa8dc;
+  transform-origin: center 150px;
+}
+.tick.large {
+  height: 16px;
+  background-color: #e06666;
+}
+
+/* Digital Section */
+.digital-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digital-time {
+  font-size: 2.8rem;
+  font-weight: bold;
+  background: linear-gradient(to right, blue, magenta);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.ampm {
+  color: violet;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+/* Custom Toggle Switch */
+.switch {
+  position: relative;
+  width: 90px;
+  height: 35px;
+  margin-bottom: 50px;
+  
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  background-color: transparent;
+  border: 2px solid #00aaff;
+  border-radius: 34px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 0.95rem;
+  color: #00aaff;
+  font-weight: bold;
+}
+
+.slider-label {
+  width: 100%;
+  text-align: center;
+}
+
+/* Date */
+.date-display {
+  font-size: 2.5rem;
+  font-style: italic;
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
