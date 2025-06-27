@@ -1,3 +1,7 @@
+# Timer_Stopwatch
+
+This is my final version of the project.
+
 echo "# Clock Application" > README.md
  git add README.md
  git commit -m "Add README"
@@ -61,3 +65,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Timer_Stopwatch
+>>>>>>> 28b5ecdb293a81cde66d54ad076fe15c86040480
